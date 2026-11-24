@@ -7,7 +7,7 @@ import sys
 import time
 from datetime import datetime
 
-DEFAULT_MAC = "78:6C:AB:EE:2A:D8"
+DEFAULT_MAC = "MAC" //Poner la MAC que toca
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 WORK_DIR = os.path.join(BASE_DIR, "extraccion")
 os.makedirs(WORK_DIR, exist_ok=True)
